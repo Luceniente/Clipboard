@@ -1,10 +1,95 @@
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: rgb(131, 215, 29);
-    text-align: center;
+body{
+text-align: center;
+background-image: url(bg-header-desktop.png);
+background-repeat: no-repeat;
+font-family: 'Bai Jamjuree';
+
 }
+h1{
+    color: hsl(210, 10%, 33%);
+}
+p{
+    color:hsl(201, 11%, 66%);
+}
+.closes{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    margin-right: 20px;
+}
+.open{
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    margin-left: 20px;
     
+}
+.info{
+    padding-top: 30px;
+}
+
+.section2{
+    display: flex;
+    padding-top: 45px;
+}
+.acces{
+    padding-top: 30px;
+}
+.acces img{
+    padding-top: 30px;
+}
+.jeje{
+    display: flex;
+    padding-top: 50px;
+}
+.logo{
+    display: flex;
+    padding-top: 65px;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.final{
+    padding-top: 40px;
+    justify-content: center;
+}
+.end{
+    padding-top: 50px;
+}
+
+.mere{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 229, 229);
+}
+.dark{
+    display: flex;
+    text-decoration: none;
+   
+}
+.rien{
+    margin-left: 20px;
+    text-decoration: solid;
+}
+.media{
+  display: flex;
+  margin-left: 600px;
+
+    
+}
+
+#jeu{
+    display: flex;
+    height:30px;
+    padding-top: 80px;
+    margin-left: 50px;
+    justify-content: center;
+
+}
+#move{
+    margin-left: 10px;
+}
