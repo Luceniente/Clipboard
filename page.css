@@ -1,29 +1,25 @@
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: rgb(131, 215, 29);
-    text-align: center;
-}
 body{
     text-align: center;
-    background-repeat: no-repeat;
+    justify-content: center;
     font-family: 'Bai Jamjuree';
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    }
+    .logocenter{
+        margin-top: 40px;
+    }
    
-    
-    
-    }
-    .background{
-        align-items: center;
-        justify-content: center;
-    }
     h1{
         color: hsl(210, 10%, 33%);
+        font-size: 30px;
     }
     p{
         color:hsl(201, 11%, 66%);
+        margin-bottom: 40px;
     }
     .closes{
         background-color: hsl(171, 66%, 44%);
@@ -49,34 +45,57 @@ body{
     .section2{
         display: flex;
         padding-top: 45px;
+        width: 100%;
+    }
+
+    .tout{
+        margin-top: 80px;
+    }
+    .computer{
+        width: 50%;
+    }
+    .computer img{
+        width: 100%;
     }
 
     .cote{
-        margin-left: 100px;
-        text-align:justify;
-        margin-top: 40px;
+        text-align: left;
+        width: 50%;
+        margin-left: 40px;
+    }
+    .cote h1 p{
+        width: 100%;
     }
     .acces{
-        padding-top: 30px;
+        padding-left: 20%;
+        padding-right: 20%;
     }
     .acces img{
         padding-top: 30px;
+        width: 100%;
     }
     .jeje{
         display: flex;
         padding-top: 50px;
         justify-content: space-around;
+    
+    }
+    .creates{
+        justify-content: space-around;
+        width: 100%;
     }
     .icon p{
-        margin-top: 30px;
+        margin-top: 36px;
+        justify-content: space-around;
+        width: 100%;
     }
     .Sneak p{
-        margin-top: 30px;
+        margin-top: 36px;
+        justify-content: space-around;
     }
     .logo{
         display: flex;
         padding-top: 65px;
-        justify-content: space-between;
         justify-content: space-around;
     }
     .final{
@@ -84,23 +103,43 @@ body{
         justify-content: center;
     }
     .end{
+        display: flex;
         padding-top: 50px;
+        justify-content: center;
     }
     
     .mere{
         display: flex;
         align-items: center;
-        justify-content: center;
-        background-color: rgb(230, 229, 229);
+        margin-top: 50px;
+        justify-content: space-around;
+        
+    
     }
-    .dark{
+    .reseau{
         display: flex;
+        margin-right: 70px;
         text-decoration: none;
-       
+
+    }
+    .social{
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+    #dark{
+        height: 50px;
+        margin-left: 100px;
+        margin-top: 50px;
+        
+        
+
     }
     .rien{
-        margin-left: 20px;
+        margin-left: 70px;
         text-decoration: solid;
+        margin-top: 50px;
+        
     }
     .media{
       display: flex;
@@ -117,6 +156,64 @@ body{
         justify-content: center;
     
     }
-    #move{
-        margin-left: 10px;
+    footer{
+        background-color: hsl(200, 13%, 86%);
+        height: 120px;
     }
+    @media screen and (max-width: 1024px) {
+        body{
+        }
+        .section2{
+            display: inline;
+            padding-top: 45px;
+            width: 100%;
+        }
+        .cote{
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+        .computer{
+            width: 100%;
+        }
+        .logo{
+            display: inline-block;
+        }
+        .B{
+            margin: 40px;
+        }
+        .D{
+            margin: 40px;
+        }
+        .jeje{
+            display: inline;
+        
+        }
+        .creates{
+            margin-top: 100px;
+        }
+        .icon{
+            margin-top: 100px;
+        }
+        .Sneak{
+            margin-top: 100px;
+        }
+        .end{
+            display: inline;
+      
+        }
+        .mere{
+            display: inline;
+            justify-content: space-around;
+        }
+        .logi{
+            justify-content: center;
+        }
+        .reseau{
+                display: inline-block;
+                margin-right: 70px;
+                text-decoration: none;
+        
+            }
+        }
+    
