@@ -19,7 +19,10 @@ body{
     }
     p{
         color:hsl(201, 11%, 66%);
-        margin-bottom: 40px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
     }
     .closes{
         background-color: hsl(171, 66%, 44%);
@@ -27,7 +30,6 @@ body{
         text-decoration: none;
         padding: 10px;
         color: #fff;
-        margin-right: 20px;
     }
     .open{
         background-color: hsl(233, 100%, 69%);
@@ -35,8 +37,7 @@ body{
         text-decoration: none;
         padding: 10px;
         color: #fff;
-        margin-left: 20px;
-        
+        margin-left: 15px;
     }
     .info{
         padding-top: 30px;
@@ -46,10 +47,7 @@ body{
         display: flex;
         padding-top: 45px;
         width: 100%;
-    }
-
-    .tout{
-        margin-top: 80px;
+        justify-content: space-around;
     }
     .computer{
         width: 50%;
@@ -61,10 +59,16 @@ body{
     .cote{
         text-align: left;
         width: 50%;
-        margin-left: 40px;
+        margin: auto;
+        padding-left: 60px;
+
     }
-    .cote h1 p{
-        width: 100%;
+    .cote h1{
+        padding: 0;
+        margin: 0;
+    }
+    .super{
+        justify-content: center;
     }
     .acces{
         padding-left: 20%;
@@ -78,20 +82,9 @@ body{
         display: flex;
         padding-top: 50px;
         justify-content: space-around;
-    
     }
-    .creates{
-        justify-content: space-around;
-        width: 100%;
-    }
-    .icon p{
-        margin-top: 36px;
-        justify-content: space-around;
-        width: 100%;
-    }
-    .Sneak p{
-        margin-top: 36px;
-        justify-content: space-around;
+    .creates h1{
+        margin-top: 21px;
     }
     .logo{
         display: flex;
@@ -101,83 +94,106 @@ body{
     .final{
         padding-top: 40px;
         justify-content: center;
+        margin-bottom: 60px;
     }
-    .end{
-        display: flex;
-        padding-top: 50px;
-        justify-content: center;
+    .close{
+        background-color: hsl(171, 66%, 44%);
+        border-radius: 40px;
+        text-decoration: none;
+        padding: 10px;
+        color: #fff;
     }
-    
+
+    .ope{
+        background-color: hsl(233, 100%, 69%);
+        border-radius: 40px;
+        text-decoration: none;
+        padding: 10px;
+        color: #fff;
+        margin-left: 15px;
+
+    }
     .mere{
         display: flex;
         align-items: center;
         margin-top: 50px;
         justify-content: space-around;
-        
-    
     }
-    .reseau{
+    .reseau {
         display: flex;
-        margin-right: 70px;
+    }
+    .reseau a{
         text-decoration: none;
-
+    }
+    .reseau li{
+        list-style-type: none;
+        text-align: left;
     }
     .social{
-        margin-right: 50px;
-        margin-top: 50px;
+        display: flex;
     }
-
+    .none{
+        margin: 15px;
+    }
     #dark{
         height: 50px;
-        margin-left: 100px;
-        margin-top: 50px;
-        
-        
-
-    }
-    .rien{
-        margin-left: 70px;
-        text-decoration: solid;
-        margin-top: 50px;
-        
-    }
-    .media{
-      display: flex;
-      margin-left: 600px;
-    
-        
-    }
-    
-    #jeu{
-        display: flex;
-        height:30px;
-        padding-top: 80px;
-        margin-left: 50px;
-        justify-content: center;
-    
     }
     footer{
         background-color: hsl(200, 13%, 86%);
-        height: 120px;
+    }
+    .closes:hover{
+        background-color: rgb(234, 232, 236);
+    }
+    .open:hover{
+        background-color: rgb(234, 232, 236);
+    }
+    .move1:hover{
+        background-color: aquamarine;
+    }
+    .move2:hover{
+        background-color: aquamarine;
+    }
+    .move3:hover{
+        background-color: aquamarine;
+    }
+    .rien:hover{
+        background-color: aquamarine;
     }
     @media screen and (max-width: 1024px) {
-        body{
+        .btn{
+            display: inline;
+            justify-content: center;
+        }
+        .boulon{
+            margin-top: 40px;
+            margin-left: -15px;
+            margin-bottom: 30px;
+
         }
         .section2{
-            display: inline;
+            display: inline-block;
             padding-top: 45px;
-            width: 100%;
-        }
-        .cote{
-            text-align: center;
-            width: 100%;
-            margin: auto;
         }
         .computer{
             width: 100%;
         }
+        .cote{
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+            margin-left: -60px;
+        }
+        .jeje{
+            display: inline;
+            justify-content: space-around;
+        }
+        .creates{
+            margin-top: 80px;
+        }
         .logo{
             display: inline-block;
+            padding-top: 65px;
+            justify-content: space-around;
         }
         .B{
             margin: 40px;
@@ -185,35 +201,12 @@ body{
         .D{
             margin: 40px;
         }
-        .jeje{
+        .mere, .social{
             display: inline;
-        
         }
-        .creates{
-            margin-top: 100px;
-        }
-        .icon{
-            margin-top: 100px;
-        }
-        .Sneak{
-            margin-top: 100px;
-        }
-        .end{
+        .reseau, .reseau li{
             display: inline;
-      
+            text-align: center;
+            margin-right: 50px;
         }
-        .mere{
-            display: inline;
-            justify-content: space-around;
-        }
-        .logi{
-            justify-content: center;
-        }
-        .reseau{
-                display: inline-block;
-                margin-right: 70px;
-                text-decoration: none;
-        
-            }
-        }
-    
+    }
