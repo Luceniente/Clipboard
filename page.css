@@ -1,37 +1,243 @@
-body{
+body {
     text-align: center;
     justify-content: center;
     font-family: 'Bai Jamjuree';
-    background-image: url(bg-header-desktop.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
     padding: 0;
     margin: 0;
+}
+
+.logocenter {
+    padding-top: 40px;
+}
+
+h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.closes {
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 40px;
+    text-align:center;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 5px 5px 5px hsl(171, 66%, 44%);
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+.open {
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    margin-left: 15px;
+    box-shadow: 5px 5px 5px hsl(233, 100%, 69%);
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.info {
+    padding-top: 30px;
+}
+.info p{
+    margin:10px
+}
+
+.section2 {
+    display: flex;
+    padding-top: 45px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.computer {
+    width: 100%;
+}
+
+.computer img {
+    width: 50%;
+}
+
+.cote {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    padding-left: 60px;
+
+}
+
+.cote h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.super {
+    justify-content: center;
+}
+
+.acces {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.acces img {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.jeje {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.creates h1 {
+    margin-top: 21px;
+}
+
+.logo {
+    display: flex;
+    padding-top: 65px;
+    justify-content: space-around;
+}
+
+.final {
+    padding-top: 40px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.close {
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+
+.ope {
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    margin-left: 15px;
+
+}
+
+.mere {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.reseau {
+    display: flex;
+    padding-right: 500px;
+}
+
+.reseau a {
+    text-decoration: none;
+}
+
+.reseau li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.social {
+    display: flex;
+}
+
+.none {
+    margin: 15px;
+}
+
+#dark {
+    height: 50px;
+    padding-top: 2rem;
+}
+
+footer {
+    background-color: hsl(200, 13%, 86%);
+}
+
+.closes:hover {
+    background-color:hsl(233, 100%, 69%);
+}
+
+.open:hover {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.move1:hover {
+    background-color:hsl(171, 66%, 44%);
+}
+
+.move2:hover {
+    background-color:hsl(171, 66%, 44%);
+}
+
+.move3:hover {
+    background-color: hsl(171, 66%, 44%);
+}
+.reseau a:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+
+
+@media screen and (min-width:1440px) {
+    .logocenter {
+        text-align: center;
+        justify-content: center;
+        font-family: 'Bai Jamjuree';
+        background-image: url(bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        padding: 0;
+        margin: 0;
     }
-    .logocenter{
-        margin-top: 40px;
-    }
-   
-    h1{
+
+    h1 {
         color: hsl(210, 10%, 33%);
         font-size: 30px;
     }
-    p{
-        color:hsl(201, 11%, 66%);
+
+    p {
+        color: hsl(201, 11%, 66%);
     }
-    .btn{
+
+    .btn {
         display: flex;
         justify-content: center;
     }
-    .closes{
+
+    .closes {
         background-color: hsl(171, 66%, 44%);
         border-radius: 40px;
         text-decoration: none;
         padding: 10px;
         color: #fff;
     }
-    .open{
+
+    .open {
         background-color: hsl(233, 100%, 69%);
         border-radius: 40px;
         text-decoration: none;
@@ -39,174 +245,256 @@ body{
         color: #fff;
         margin-left: 15px;
     }
-    .info{
+
+    .info {
         padding-top: 30px;
     }
-    
-    .section2{
+
+    .section2 {
         display: flex;
         padding-top: 45px;
         width: 100%;
         justify-content: space-around;
     }
-    .computer{
-        width: 50%;
-    }
-    .computer img{
+
+    .computer {
         width: 100%;
     }
 
-    .cote{
+    .computer img {
+        width: 50%;
+    }
+
+    .cote {
         text-align: left;
         width: 50%;
         margin: auto;
         padding-left: 60px;
 
     }
-    .cote h1{
+
+    .cote h1 {
         padding: 0;
         margin: 0;
     }
-    .super{
+
+    .super {
         justify-content: center;
     }
-    .acces{
+
+    .acces {
         padding-left: 20%;
         padding-right: 20%;
     }
-    .acces img{
+
+    .acces img {
         padding-top: 30px;
         width: 100%;
     }
-    .jeje{
+
+    .jeje {
         display: flex;
         padding-top: 50px;
         justify-content: space-around;
     }
-    .creates h1{
+
+    .creates h1 {
         margin-top: 21px;
     }
-    .logo{
+
+    .logo {
         display: flex;
         padding-top: 65px;
         justify-content: space-around;
     }
-    .final{
+
+    .final {
         padding-top: 40px;
         justify-content: center;
         margin-bottom: 60px;
     }
-    .close{
+
+    .close {
         background-color: hsl(171, 66%, 44%);
         border-radius: 40px;
         text-decoration: none;
         padding: 10px;
         color: #fff;
+        box-shadow: hsl(171, 66%, 44%);
     }
 
-    .ope{
+    .ope {
         background-color: hsl(233, 100%, 69%);
         border-radius: 40px;
         text-decoration: none;
         padding: 10px;
         color: #fff;
         margin-left: 15px;
+        box-shadow: hsl(233, 100%, 69%);
 
     }
-    .mere{
+
+    .mere {
         display: flex;
         align-items: center;
         margin-top: 50px;
         justify-content: space-around;
     }
+
     .reseau {
         display: flex;
+        padding-right: 500px;
     }
-    .reseau a{
+
+    .reseau a {
         text-decoration: none;
     }
-    .reseau li{
+
+    .reseau li {
         list-style-type: none;
         text-align: left;
     }
-    .social{
+
+    .social {
         display: flex;
     }
-    .none{
+
+    .none {
         margin: 15px;
     }
-    #dark{
+
+    #dark {
         height: 50px;
     }
-    footer{
+
+    footer {
         background-color: hsl(200, 13%, 86%);
     }
-    .closes:hover{
-        background-color: rgb(234, 232, 236);
-    }
-    .open:hover{
-        background-color: rgb(234, 232, 236);
-    }
-    .move1:hover{
-        background-color: aquamarine;
-    }
-    .move2:hover{
-        background-color: aquamarine;
-    }
-    .move3:hover{
-        background-color: aquamarine;
-    }
-    .rien:hover{
-        background-color: aquamarine;
-    }
-    @media screen and (max-width: 1024px) {
-        .btn{
-            display: inline;
-            justify-content: center;
-        }
-        .boulon{
-            margin-top: 40px;
-            margin-left: -15px;
-            margin-bottom: 30px;
 
-        }
-        .section2{
-            display: inline-block;
-            padding-top: 45px;
-        }
-        .computer{
-            width: 100%;
-        }
-        .cote{
-            width: 100%;
-            text-align: center;
-            margin-top: 30px;
-            margin-left: -60px;
-        }
-        .jeje{
-            display: inline;
-            justify-content: space-around;
-        }
-        .creates{
-            margin-top: 80px;
-        }
-        .logo{
-            display: inline-block;
-            padding-top: 65px;
-            justify-content: space-around;
-        }
-        .B{
-            margin: 40px;
-        }
-        .D{
-            margin: 40px;
-        }
-        .mere, .social{
-            display: inline;
-        }
-        .reseau, .reseau li{
-            display: inline;
-            text-align: center;
-            margin-right: 50px;
-        }
+    .closes:hover {
+        background-color: rgb(196, 155, 236);
     }
+
+    .open:hover {
+        background-color: rgb(119, 8, 136);
+    }
+
+    .move1:hover {
+        background-color: rgb(119, 176, 233);
+    }
+
+    .move2:hover {
+        background-color: rgb(119, 176, 233);
+    }
+
+    .move3:hover {
+        background-color: rgb(119, 176, 233);
+    }
+    .none:hover {
+        background-color: aquamarine;
+    }
+    .reseau:hover{
+        background-color: aquamarine;
+        box-shadow: blueviolet;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .logocenter {
+        background-image: url(bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .image{
+        padding: 20px;
+    }
+    .image h1{
+        padding: 10px;
+    }
+    .image p{
+        padding: 1rem;
+    }
+
+    .btn {
+        display: inline;
+        justify-content: center;
+    }
+
+    .boulon {
+        margin-top: 40px;
+        margin-left: -15px;
+        margin-bottom: 100px;
+
+
+    }
+
+    .info{
+        padding: 1rem;
+    }
+
+    .section2 {
+        display: inline-block;
+        padding-top: 45px;
+    }
+
+    .computer {
+        width: 100%;
+    }
+
+    .cote {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: -60px;
+    }
+    .cote p{
+        padding: 40px;
+    }
+    .acces{
+        padding: 40px;
+    }
+
+    .jeje {
+        display: inline;
+        justify-content: space-around;
+    }
+    .jeje p{
+        padding: 30px;
+    }
+
+    .creates {
+        padding-top: 100px;
+    }
+
+    .logo {
+        display: inline-block;
+        padding: 65px;
+        justify-content: space-around;
+    }
+
+    .B {
+        margin: 40px;
+    }
+
+    .D {
+        margin: 40px;
+    }
+    .final p{
+        padding: 40px;
+    }
+    
+
+    .mere,
+
+
+    .reseau,
+    .reseau li {
+        display: inline;
+        text-align: center;
+        margin-right: 50px;
+    }
+    .move1{
+        padding-left: 10rem;
+    }
+}
